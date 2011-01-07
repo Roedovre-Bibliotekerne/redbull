@@ -1,0 +1,8 @@
+name        = Redbull
+description = Rødovre Bibliotekerne main theme for Ding!
+core        = 6.x
+base theme  = dynamo
+
+;--------------------- styles ------------------------------
+stylesheets[all][]  = stylesheets/base.css
+
