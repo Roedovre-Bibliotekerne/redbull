@@ -1,0 +1,136 @@
+#search,
+#account{
+  margin:0;
+  width:auto;
+}
+#site-name{
+  margin:0;
+}
+
+
+#pagebody-inner{
+  margin:0;
+  padding:0;
+}
+body.no-sidebars #content{
+  width:auto;
+}
+.ting-search-carousel{
+  left:0;
+  width:auto;
+}
+body.no-sidebars #content-inner{
+  margin:0;
+}
+.panel-threecol-33-34-33-stacked .panel-top {
+  width:auto;
+}
+body.no-sidebars #content{
+  float:none;
+}
+
+
+/* carousel resets */
+.ting-search-carousel .search-results {
+  background-color:#d8d8d8;
+}
+
+.ting-search-carousel .search-controller {
+  width:auto;
+  background-color:#b7b7b5;
+  border:0;
+  margin:0;
+  padding-left:3px;
+}
+.ting-search-carousel .search-controller li {
+  border-top:1px solid #b7b7b7;
+  margin:0;
+  text-transform:uppercase;
+  background: transparent;
+}
+.ting-search-carousel .search-controller li a {
+  color: #676765;
+}
+.ting-search-carousel .search-controller li a:hover {
+  color: #333333;
+}
+.ting-search-carousel .search-controller li.active a {
+  color: #e13503;  
+}
+.ting-search-carousel .search-controller li.active{
+  background:#d8d8d8;
+  border-top:1px solid #d8d8d8;
+}
+
+ /* carousel buttons */ 
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal,
+.jcarousel-skin-ting-search-carousel .jcarousel-next-horizontal{
+  background:transparent url('../images/carousel-pager.png') no-repeat top left;
+  height:40px;
+  width:23px;
+  top:80px;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal {
+  background-position: 0 0;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-next-horizontal {
+  background-position: -23px 0;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal:hover {
+  background-position: 0 -80px;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-next-horizontal:hover {
+  background-position: -23px -80px;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-disabled-horizontal:active {
+  background-position: 0 -40px;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-ting-search-carousel .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-ting-search-carousel .jcarousel-next-disabled-horizontal:active {
+  background-position: 23px -40px;
+}
+/* caousel buttons position */
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal {
+  left:-277px;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-next-horizontal {
+  right:-17px;
+}
+ 
+ 
+ 
+ 
+/* ting search form resets */
+ 
+#ting-search-form {
+  background: transparent none;
+  padding:0;
+  margin:0;
+  position:relative;
+}
+#ting-search-form label {
+  background: transparent none;
+  margin:0;
+  padding:4px;
+}
+#ting-search-form .form-item-textfield input{
+  background: #fff none;
+  width:478px;
+  margin:0;
+  padding:0;
+  padding-left:4px;
+  padding-top:4px;
+  border:0 none;
+  
+}
+
+#ting-search-form .form-image-button {
+  position:absolute;
+  right:2px;
+  top:2px;
+  height:18px;
+  display:block;
+} 

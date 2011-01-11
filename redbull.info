@@ -4,6 +4,7 @@ core        = 6.x
 base theme  = dynamo
 
 ;--------------------- regions -----------------------------
+regions[hours]        = hours
 regions[account]        = account
 regions[search]         = search
 regions[header]         = header
@@ -28,4 +29,5 @@ features[] = secondary_links
 
 ;--------------------- styles ------------------------------
 stylesheets[all][]  = stylesheets/base.css
+stylesheets[all][]  = stylesheets/dynamo_resets.css
 
