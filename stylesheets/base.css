@@ -1,1 +1,163 @@
 /* structual styles goes here */
+
+body{
+  background-color:#d4d4d4;
+}
+
+.page{
+  width:960px;
+  margin:10px auto;
+  margin-bottom:0;
+  background:#fff;
+  padding:10px;
+  position:relative;
+}
+#site-name{
+  padding:0;
+  background:#d8d8d8;
+  height:auto;
+}
+#site-name a{
+  background:transparent url('../images/logo.png') no-repeat center left;
+  margin:0 20px;
+  width:204px;
+  height:61px;
+}
+.main-menu{
+  position:absolute;
+  right:10px;
+  top:10px;
+}
+.main-menu li{
+  float:left;
+}
+.main-menu li a{
+  display:block;
+  min-width:109px;
+  height:50px;
+  margin-left:1px;
+  padding:5px;
+  text-transform:uppercase;
+  color:#fff;
+  text-decoration:none !important; /* uarhg! */
+}
+.main-menu li:nth-child(5n+1) a{
+  background:#e33503;
+}
+.main-menu li:nth-child(5n+2) a{
+  background:#f3871b;
+}
+.main-menu li:nth-child(5n+3) a{
+  background:#73b400;
+}
+.main-menu li:nth-child(5n+4) a{
+  background:#73a29a;
+}
+.main-menu li:nth-child(5n+5) a{
+  background:#436a71;
+}
+.main-menu li.active a,
+.main-menu li a:hover{
+  height:55px;
+  margin-top:-5px;
+  font-weight:normal;
+  
+}
+.darkblue{
+  background:#001a27;
+  color:#fff;
+  padding-top:20px;
+}
+.darkblue #search > form,
+.darkblue #officehours > div,
+.darkblue #account > div{
+  margin:0 20px;
+}
+.darkblue #search{
+  width:520px;
+}
+.darkblue #officehours,
+.darkblue #account{
+  width:220px;
+}
+.darkblue #officehours h3{
+  color:#fff;
+  font-size:1em;
+  border-bottom:1px solid #fff;
+}
+
+
+
+
+
+
+
+/* opening hours */
+.view-library-list{
+  font-size:10px;
+}
+.view-library-list .title{
+  float:left;
+  width:120px;
+}
+.view-library-list .title a{
+  font-weight:normal;
+  color:#fff;
+}
+.view-library-list .field-opening-hours-scope{
+  float:right;
+  width:50px;
+} 
+ 
+
+#user-login-form{
+  margin-top:0;
+  padding:0;
+  background: transparent none;
+  position:relative;
+}
+ 
+#user-login-form #edit-name-wrapper input,
+#user-login-form #edit-pass-wrapper input {
+  width:172px;
+  border:0 none;
+  padding:4px 4px 0 4px;
+} 
+ 
+#user-login-form .form-image-button{
+  position:absolute;
+  top:25px;
+  right:2px;
+  width:auto;
+}
+#user-login-form .form-image-button input{ 
+  padding:0;
+  margin:0;
+}
+
+/* footer */
+#pagefooter{
+  color:#fff;
+  margin:0 auto;
+  width:980px;
+  background:#001a27 url('../images/footer-ribbon.png') no-repeat top left;
+}
+#pagefooter h3{
+  color:#fff;
+} 
+#pagefooter-inner{
+  background:transparent none;
+  padding: 35px 20px 0 20px;
+}
+#pagefooter-inner div.left{
+  background: 0 none;
+  width:176px;
+}
+.oneoffour{
+  float:left;
+  width:25%;
+}
+#pagefooter-inner li.statement{
+  float:left;
+  margin-top:20px;
+}
