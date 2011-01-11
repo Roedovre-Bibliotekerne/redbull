@@ -34,6 +34,95 @@
     </div>
 <?php } ?>
 
+<div class="page">
+  <<?php print $site_name_element; ?> id="site-name">
+    <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
+      <?php print $site_name; ?>
+    </a>
+  </<?php print $site_name_element; ?>>
+  <?php if ($primary_links){ ?>
+  <?php print theme('links', $primary_links,array('class' => 'main-menu')) ; ?>
+  <?php } ?>
+  <div class="darkblue clear-block">
+    <div id="search" class="left">
+      <?php print $search ?>
+    </div>
+    <div id="officehours" class="left">
+      <?php print $hours; ?>
+    </div>
+    <div id="account" class="left">
+      <?php print $account; ?>
+    </div>  
+  </div>
+  
+   <div id="pagebody" class="clearfix">
+          <div id="pagebody-inner" class="clearfix">
+
+            <?php if ($left) { ?>
+              <div id="content-left">
+                <?php print $left; ?>
+              </div>
+            <?php } ?>
+
+            <div id="content">
+              <div id="content-inner">
+
+                <?php
+                  /*if were in the user pages add the tabs in the top*/
+                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs){
+                    print '<div class="tabs-user">' . $tabs . '</div>';
+                  }
+                ?>
+
+                <div id="content-main">
+                  <?php print $content; ?>
+                </div>
+                
+                <?php
+                  if (arg(0) != 'user'  && $tabs){
+                    print '<div class="tabs">' . $tabs . '</div>';
+                  }
+                ?>
+
+
+              </div>
+            </div>
+
+            <?php if ($right) { ?>
+              <div id="content-right">
+                <?php print $right; ?>
+              </div>
+            <?php } ?>
+
+          </div>
+        </div>
+
+    
+</div>
+<div id="pagefooter">
+	<ul id="pagefooter-inner" class="clear-block">
+    <li class="oneoffour">
+	    <?php print $footer_one; ?>
+	  </li>
+    <li class="oneoffour">
+	    <?php print $footer_two; ?>
+	  </li>
+    <li class="oneoffour">
+      <?php print $footer_three; ?>             
+	  </li>
+    <li class="oneoffour">
+      <?php print $footer_four; ?>              
+    </li>
+    <li class="statement">
+      <?php print $footer; ?>
+    </li>
+  </ul>
+</div>
+
+
+
+<?php /*
+
 <div id="container" class="clearfix">
 
     <div id="page" class="minheight">
@@ -86,7 +175,7 @@
               <div id="content-inner">
 
                 <?php
-                  /*if were in the user pages add the tabs in the top*/
+                //  if were in the user pages add the tabs in the top
                   if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs){
                     print '<div class="tabs-user">' . $tabs . '</div>';
                   }
@@ -142,6 +231,8 @@
     </div>
 
 </div>
+
+*/ ?>
 
 <?php print $closure; ?>
 </body>
