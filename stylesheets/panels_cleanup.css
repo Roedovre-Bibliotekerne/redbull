@@ -1,0 +1,45 @@
+.panel-threecol-33-34-33-stacked .panel-left,
+#pagebody,
+.panel-top{
+  background: transparent none;
+}
+.panel-threecol-33-34-33-stacked .panel-left{
+  border: 0 none;
+  width:50%;
+}
+.panel-threecol-33-34-33-stacked .panel-left > div{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+  .panel-threecol-33-34-33-stacked .panel-left .view-article-list {
+    width:auto;
+  }
+  .panel-left .view, .panel-left .pane-library_feature_detail_list ul.item-list {
+    left:0;
+  }
+  .panel-left .view ul li, .panel-left ul.item-list li, .panel-left .pane-library_feature_detail_list ul li {
+    background:transparent none;
+    padding:0;
+    border-bottom:1px dashed #d7d7d7;
+  }
+
+
+
+
+.panel-threecol-33-34-33-stacked .panel-middle{
+  width:25%;
+  background: none;
+}
+.panel-threecol-33-34-33-stacked .panel-middle > div{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.panel-threecol-33-34-33-stacked .panel-right{
+  width:25%;
+}
+.panel-threecol-33-34-33-stacked .panel-right > div{
+  padding-left:10px;
+  padding-right:10px;
+}

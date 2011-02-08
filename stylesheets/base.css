@@ -2,6 +2,7 @@
 
 body{
   background-color:#d4d4d4;
+  font-family: Tahoma, sans-serif;
 }
 
 .page{
@@ -24,6 +25,7 @@ body{
   height:61px;
 }
 .main-menu{
+  font-family: “Gill Sans”, Calibri, “Trebuchet MS”, sans-serif;
   position:absolute;
   right:10px;
   top:10px;
@@ -40,21 +42,6 @@ body{
   text-transform:uppercase;
   color:#fff;
   text-decoration:none !important; /* uarhg! */
-}
-.main-menu li:nth-child(5n+1) a{
-  background:#e33503;
-}
-.main-menu li:nth-child(5n+2) a{
-  background:#f3871b;
-}
-.main-menu li:nth-child(5n+3) a{
-  background:#73b400;
-}
-.main-menu li:nth-child(5n+4) a{
-  background:#73a29a;
-}
-.main-menu li:nth-child(5n+5) a{
-  background:#436a71;
 }
 .main-menu li.active a,
 .main-menu li a:hover{
@@ -79,13 +66,20 @@ body{
 .darkblue #officehours,
 .darkblue #account{
   width:220px;
+  height:auto;
 }
-.darkblue #officehours h3{
+/*.darkblue #officehours h3{
   color:#fff;
   font-size:1em;
   border-bottom:1px solid #fff;
+}*/
+.darkblue h3{
+  color:#fff;
+  font-size:11px;
+  font-weight:normal;
+  border-bottom:1px solid #fff;
+  margin-bottom:10px;
 }
-
 
 
 
@@ -114,7 +108,16 @@ body{
   margin-top:0;
   padding:0;
   background: transparent none;
+}
+.btn-container{
   position:relative;
+  /*border: 1px solid green;*/
+}
+
+#user-login-form .nemlogin{
+  position:absolute;
+  top:0;
+  right:0;
 }
  
 #user-login-form #edit-name-wrapper input,
@@ -123,16 +126,26 @@ body{
   border:0 none;
   padding:4px 4px 0 4px;
 } 
+
  
-#user-login-form .form-image-button{
+#user-login-form .form-button{
   position:absolute;
-  top:25px;
+  top:2px;
   right:2px;
   width:auto;
-}
-#user-login-form .form-image-button input{ 
   padding:0;
   margin:0;
+}
+#user-login-form .form-button input{ 
+  color:#fff;
+  display:block;
+  border:0 none;
+  width:50px;
+  height:16px;
+  background: #f6a925; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6a925', endColorstr='#ef6615'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6a925), to(#ef6615)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #f6a925,  #ef6615); /* for firefox 3.6+ */
 }
 
 /* footer */

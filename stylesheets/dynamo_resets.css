@@ -35,6 +35,12 @@ body.no-sidebars #content{
   background-color:#d8d8d8;
 }
 
+.ting-search-carousel .subtitle {
+  color:#31483a;
+  font-size:28px;
+  padding-left:0;
+}
+
 .ting-search-carousel .search-controller {
   width:auto;
   background-color:#b7b7b5;
@@ -49,13 +55,14 @@ body.no-sidebars #content{
   background: transparent;
 }
 .ting-search-carousel .search-controller li a {
-  color: #676765;
+  color: #666666;
 }
 .ting-search-carousel .search-controller li a:hover {
-  color: #333333;
+  color: #001a28;
+  text-decoration:none !important;
 }
 .ting-search-carousel .search-controller li.active a {
-  color: #e13503;  
+  color: #e23403;  
 }
 .ting-search-carousel .search-controller li.active{
   background:#d8d8d8;
@@ -118,19 +125,80 @@ body.no-sidebars #content{
 }
 #ting-search-form .form-item-textfield input{
   background: #fff none;
-  width:478px;
+  width:476px;
   margin:0;
   padding:0;
   padding-left:4px;
   padding-top:4px;
   border:0 none;
-  
 }
-
-#ting-search-form .form-image-button {
+#ting-search-form .search-title {
+  color:#fff;
+  text-transform:uppercase;
+  font-weight:normal;
+  font-size:28px;
+  margin-bottom:10px;
+}
+#ting-search-form .form-button {
   position:absolute;
   right:2px;
   top:2px;
   height:18px;
   display:block;
+  padding:0;
+  margin:0;
+}
+#ting-search-form .form-button input{
+  color:#fff;
+  display:block;
+  border:0 none;
+  width:88px;
+  height:20px;
+  background: #f6a925; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6a925', endColorstr='#ef6615'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6a925), to(#ef6615)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #f6a925,  #ef6615); /* for firefox 3.6+ */
 } 
+
+/* campaign */
+
+.campaign-text,
+.campaign-type-text-only,
+.campaign-inner{
+  width:auto;
+}
+
+.campaign-theme{
+  margin:0;
+}
+.campaign-theme-green{
+  background-color:#73b400;
+  color:#fff;
+}
+.campaign-theme-blue{
+  background-color:#cce04d;
+}
+.campaign-theme-blue a{
+  color:#31473b;
+}
+.campaign-theme-red{
+  background-color:#73a29a;
+  color:#fff;
+}
+.campaign-theme a{
+  background: transparent none;
+  padding: 10px;
+}
+
+/* autocopmplete field */
+ 
+ .ac_results{
+   margin-left:-1px;
+   width:480px !important;
+   border-color:#001A27;
+ }
+ 
+ .ac_results .ac_over{
+   background: #F3871B;
+ }
+ 

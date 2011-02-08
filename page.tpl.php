@@ -21,7 +21,6 @@
 /*adds support for for the admin module*/
   if (!empty($admin)) print $admin; 
 ?>
-
 <?php if ($help OR $messages) { ?>
   <div id="drupal-messages">
     <div id="messages-hide">
@@ -33,14 +32,11 @@
 
     </div>
 <?php } ?>
-
-<div class="page">
-  <<?php print $site_name_element; ?> id="site-name">
-    <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
-      <?php print $site_name; ?>
-    </a>
-  </<?php print $site_name_element; ?>>
-  <?php if ($primary_links){ ?>
+  <div class="page">
+    <<?php print $site_name_element; ?> id="site-name">
+      <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>
+    </<?php print $site_name_element; ?>>
+<?php if ($primary_links){ ?>
   <?php print theme('links', $primary_links,array('class' => 'main-menu')) ; ?>
   <?php } ?>
   <div class="darkblue clear-block">
