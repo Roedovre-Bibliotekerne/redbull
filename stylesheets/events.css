@@ -1,0 +1,52 @@
+#event-list .view-event-list .attachment-before > div > ul > li{
+  background:#d8d8d7 none;
+  margin-bottom:14px;
+  padding:5px;
+}
+#event-list .view-event-list .attachment-before li > div{
+  background-color:#fff;
+  padding:0 5px;
+}
+#event-list .view-event-list .attachment-before li > div.image{
+  padding:0;
+}
+#event-list .view-event-list .attachment-before li > div.field-list-image-fid img{
+
+}
+
+#event-list li{
+  padding:0;
+}
+
+#event-list .view-event-list .attachment-before .calendar-leafs .info{
+  width:140px;
+}
+#event-list .view-event-list .calendar-leafs .info{
+  width:148px;
+}
+
+/* leaf */
+#event-list li .calendar-leafs .leaf {
+  font-family:tahoma, sans-serif;
+  background:transparent url('../images/cal-entry-frame.png');
+  width:46px;
+  height:52px;
+  padding:1px 2px 3px 2px;
+}
+
+#event-list li .calendar-leafs .leaf .day{
+  background-color:#b7b7b5;
+}
+#event-list li .calendar-leafs .leaf .date{
+  font-size:22px;
+}
+#event-list li .calendar-leafs .leaf .month{
+  line-height:7px;
+}
+
+#event-list  .attachment-before li div.info h4 a{
+  font-weight:normal;
+  font-size:15px;
+  text-transform:uppercase;
+  line-height:1;
+}

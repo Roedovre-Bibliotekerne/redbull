@@ -30,4 +30,11 @@ features[] = secondary_links
 ;--------------------- styles ------------------------------
 stylesheets[all][]  = stylesheets/base.css
 stylesheets[all][]  = stylesheets/dynamo_resets.css
+stylesheets[all][]  = stylesheets/panels_cleanup.css
+stylesheets[all][]  = stylesheets/articles.css
+stylesheets[all][]  = stylesheets/events.css
 
+;--------------------- scripts ------------------------------
+scripts[] = scripts/cufon.js
+scripts[] = scripts/cufon.gillsanslight.js
+scripts[] = scripts/script.js
