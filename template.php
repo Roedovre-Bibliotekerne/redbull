@@ -96,7 +96,18 @@ function redbull_preprocess_ding_library_user_status_block(&$variables) {
     }
   }
 }
+function redbull_ting_reference_formatter_default($element) {
+  // Don’t render empty fields.
+  if (ting_reference_content_is_empty($element['#item'], array())) {
+    return;
+  }
 
+  $collection = _ting_reference_get_collection($element['#item']['ting_ref_type'], $element['#item']['ting_object_id'], $element['#item']['description']);
+  if (!$collection) {
+    return t('Object not found.');
+  }
+  return theme('ting_related_materials', $collection);
+}
 
 
 ?>

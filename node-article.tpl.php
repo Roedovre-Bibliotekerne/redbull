@@ -55,7 +55,6 @@ if ($page == 0){ ?>
 </div>
 <?php } else { ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
-<div class="left twothird">
   <div class="subject">
     <?php print return_terms_from_vocabulary($node, "1"); ?> 
   </div>
@@ -80,44 +79,20 @@ if ($page == 0){ ?>
 	  <div class="taxonomy">
    	  <?php print $terms ?> 
 	  </div>  
-  </div>
 	<?php } ?>
 		
 
   <?php if ($similarterms) { ?>
-  <div class="right onethird">
-  
-  <div class="materials-related">
-  
-  <?php 
-
-/*foreach($node->field_ting_refs as $to){
-  $tingObj = ting_get_object_by_id($to['ting_object_id']);
-  echo '<div class="material">';
-  #dsm($tingObj);
-  echo $to['view'];
-  echo '</div>';
-}*/
-
-?>
-  
-  
-  </div>
-  
-  
     <div class="ding-box-wide similar">
       <h3><?php print t('Similar'); ?></h3>
       <?php print $similarterms; ?>
     </div>
-  </div>
   <?php } ?>
 
 
 	<?php if ($links){ ?>
     <?php  print $links; ?>
 	<?php } ?>
-
-
 
 </div>
 <?php } ?> 

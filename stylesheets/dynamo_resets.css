@@ -219,3 +219,29 @@ body.no-sidebars #content{
    background: #F3871B;
  }
  
+ /* pane box */
+ 
+ .ding-box-pane,
+ .ding-box-pane h3,
+ .ding-box-pane ul,
+ .ding-box-pane ul li{
+   width: auto;
+ }
+ .ding-box-pane{
+   background:transparent none;
+ }
+ .ding-box-pane > div{
+   background: #d8d8d7 none;
+ }
+  .ding-box-pane h3{
+   padding:0;
+   width:auto;
+   background:none;
+ }
+ .ding-box-pane ul{
+   background:transparent none;
+ }
+ 
+ 
+ 
+ 

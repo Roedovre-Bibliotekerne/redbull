@@ -82,3 +82,32 @@
 }
 
 
+ul.field-ting-refs{
+  width:auto;
+}
+ul.field-ting-refs li{
+  border:5px solid #d8d8d7;
+  font-size:11px;
+}
+ul.field-ting-refs .record{
+  width:auto;
+  padding-right:10px;
+}
+ul.field-ting-refs .record h3{
+  padding:0;
+  font-size:13px;
+  font-weight:bold;
+}
+ul.field-ting-refs span.creator {
+  font-weight:normal;
+  padding-bottom:10px;
+  display:block;
+}
+ul.field-ting-refs span.creator a{
+  color:#666;
+  text-decoration:underline;
+}
+ul.field-ting-refs .redlink{
+  color:#e23403;
+  text-decoration:underline;
+}
