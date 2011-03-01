@@ -9,7 +9,6 @@ $price = ($fields['field_entry_price_value']->raw < 1) ? t('Free') : intval($fie
 <?php print $fields['field_list_image_fid']->content ;?>
 </div>
 <div class="calendar-leafs clear-block">
-
   <div class="leaf <?php print $is_today ?>">
     <div class="day"><?php print dynamo_datef($start, 'l');?></div>
     <div class="date"><?php print dynamo_datef($start, 'd');?></div>

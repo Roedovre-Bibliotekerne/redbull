@@ -81,8 +81,20 @@ body{
   margin-bottom:10px;
 }
 
+.tabs{
+  position:absolute;
+  right:30px;
+  top:25px;
+}
+.tabs ul{
+  border-bottom:0;
+}
 
-
+.tabs ul li.active a{
+  background:#001A27;
+  color:#fff;
+  border-bottom:0;
+}
 
 
 
@@ -100,7 +112,7 @@ body{
 }
 .view-library-list .field-opening-hours-scope{
   float:right;
-  width:50px;
+  width:58px;
 } 
  
 
@@ -173,4 +185,71 @@ body{
 #pagefooter-inner li.statement{
   float:left;
   margin-top:20px;
+}
+
+
+
+/* account, when logged in */
+#account-profile{
+  width:auto;
+  margin:0;
+}
+
+#account-profile .header{
+  border-bottom:1px solid #fff;
+  margin-bottom:8px;
+  font-size:11px;
+  line-height:20px;
+}
+#account-profile ul{
+  width:auto;
+  margin-left:10px;
+  background:none;
+}
+#account-profile ul span{
+  width:92px;
+}
+#account-profile ul div.status{
+position:absolute;
+right:-6px;
+background:transparent url(../images/status.png) no-repeat;
+}
+#account-profile ul div.status span.ok{
+  background:transparent url(../images/status-info.png) no-repeat;
+}
+#account-profile ul div.content{
+  width:auto;
+}
+#account-profile ul div.content a{
+  width: auto;
+}
+#account-profile .cart{
+  background: none;
+  height:auto;
+  width:auto;
+  border-right:1px solid #fff;
+  padding-right:8px;
+}
+#account-profile .cart a{
+  
+  display:block;
+  height:auto;
+  width:auto;
+  padding:2px 0 10px 34px;
+  font-weight:bold;
+  background: transparent url(../images/cart.png) no-repeat;
+  font-size:28px;
+}
+#account-profile .username {
+  clear:left;
+  width:auto;
+  overflow:visible;
+  padding-top:5px;
+  height:auto;
+  font-size:10px;
+}
+#account-profile .username a{
+  font-size:10px;
+  padding:0;
+  background:none;
 }

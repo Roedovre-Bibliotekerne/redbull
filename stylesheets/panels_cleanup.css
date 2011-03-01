@@ -43,3 +43,30 @@
   padding-left:10px;
   padding-right:10px;
 }
+
+
+
+/* dynamo resets and panel pages cleanup mixed
+ */
+
+ .content-top {
+   background:none;
+   left:auto;
+   padding:0;
+ }
+ .panel-twocol-left-stacked .content-left {
+   width:75%;
+   margin:0;
+ }
+ .panel-twocol-left-stacked .panel-left {
+   width:auto;
+   margin:10px;
+ }
+ 
+.panel-twocol-left-stacked .content-right {
+  width:25%;
+}
+.panel-twocol-left-stacked .content-right > div {
+  margin:10px;
+  padding-bottom:30px;  
+}

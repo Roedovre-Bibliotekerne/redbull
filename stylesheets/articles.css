@@ -42,3 +42,43 @@
   color: #e23403;
   text-decoration:underline !important;
 }
+
+
+
+
+
+
+/* article - node view */
+
+.node-type-article .twothird{
+  width:66.66%;
+}
+.node-type-article .twothird > *{
+  margin-right:10px;
+} 
+.node-type-article .onethird{
+  width:33.33%;
+}
+.node-type-article .onethird > *{
+  margin-left:10px;
+  padding-bottom:50px;
+}
+.page-comment .comment, .page-comment #comment-form, .pane-node_content, .pane-node_comments, .pane-node_comment_form{
+  margin:0;
+} 
+
+.ding-box-wide{
+  width:auto;
+  margin:0;
+  background:red;
+  padding-bottom:20px;
+}
+
+.node-type-article .left{
+  display:block;
+}
+.node-type-article .right{
+  display:block;
+}
+
+

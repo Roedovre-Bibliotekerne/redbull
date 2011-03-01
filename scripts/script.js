@@ -12,6 +12,10 @@ $(document).ready(function(){
 	Cufon.replace('.ting-search-carousel .subtitle', { fontFamily: 'Gill Sans Light' });
 	
 	
+	$('#search label, #user-login-form label').inFieldLabels({
+		fadeOpacity:"0.2",
+		fadeDuration:"100"			
+	});	
 });
 
 

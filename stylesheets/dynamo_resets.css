@@ -37,7 +37,7 @@ body.no-sidebars #content{
 
 .ting-search-carousel .subtitle {
   color:#31483a;
-  font-size:28px;
+  font-size:46px;
   padding-left:0;
 }
 
@@ -99,6 +99,17 @@ body.no-sidebars #content{
 .jcarousel-skin-ting-search-carousel .jcarousel-next-disabled-horizontal:active {
   background-position: 23px -40px;
 }
+
+
+.ting-search-carousel .search-results .creator, .ting-search-carousel .search-results .creator{
+  color: #31483a;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+.ting-search-carousel .search-results .creator, .ting-search-carousel .search-results .title{
+  color: #31483a;
+}
+
 /* caousel buttons position */
 .jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal {
   left:-277px;
@@ -188,6 +199,12 @@ body.no-sidebars #content{
 .campaign-theme a{
   background: transparent none;
   padding: 10px;
+}
+.campaign-text a {
+  font-family:tahoma, sans-serif;
+  font-size:13px;
+  font-weight:normal;
+  padding-top:25px;
 }
 
 /* autocopmplete field */

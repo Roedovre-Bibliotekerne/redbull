@@ -36,6 +36,12 @@
     <<?php print $site_name_element; ?> id="site-name">
       <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>
     </<?php print $site_name_element; ?>>
+    <?php
+                  /*if were in the user pages add the tabs in the top*/
+                  if ($tabs){
+                    print '<div class="tabs">' . $tabs . '</div>';
+                  }
+                ?>
 <?php if ($primary_links){ ?>
   <?php print theme('links', $primary_links,array('class' => 'main-menu')) ; ?>
   <?php } ?>
@@ -63,12 +69,7 @@
             <div id="content">
               <div id="content-inner">
 
-                <?php
-                  /*if were in the user pages add the tabs in the top*/
-                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs){
-                    print '<div class="tabs-user">' . $tabs . '</div>';
-                  }
-                ?>
+                
 
                 <div id="content-main">
                   <?php print $content; ?>
