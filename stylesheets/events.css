@@ -1,16 +1,16 @@
-#event-list .view-event-list .attachment-before > div > ul > li{
+#event-list .view-roedovre-event-list .attachment-before > div > ul > li{
   background:#d8d8d7 none;
   margin-bottom:14px;
   padding:5px;
 }
-#event-list .view-event-list .attachment-before li > div{
+#event-list .view-roedovre-event-list .attachment-before li > div{
   background-color:#fff;
   padding:0 5px;
 }
-#event-list .view-event-list .attachment-before li > div.image{
+#event-list .view-roedovre-event-list .attachment-before li > div.image{
   padding:0;
 }
-#event-list .view-event-list .attachment-before li > div.field-list-image-fid img{
+#event-list .view-roedovre-event-list .attachment-before li > div.field-list-image-fid img{
 
 }
 
@@ -18,10 +18,10 @@
   padding:0;
 }
 
-#event-list .view-event-list .attachment-before .calendar-leafs .info{
+#event-list .view-roedovre-event-list .attachment-before .calendar-leafs .info{
   width:140px;
 }
-#event-list .view-event-list .calendar-leafs .info{
+#event-list .view-roedovre-event-list .calendar-leafs .info{
   width:148px;
 }
 
