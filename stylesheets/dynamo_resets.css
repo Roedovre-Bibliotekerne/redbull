@@ -189,7 +189,7 @@ body.no-sidebars #content{
 .campaign-theme-blue{
   background-color:#cce04d;
 }
-.campaign-theme-blue a{
+.campaign-theme.campaign-theme-blue a{
   color:#31473b;
 }
 .campaign-theme-red{
@@ -199,6 +199,7 @@ body.no-sidebars #content{
 .campaign-theme a{
   background: transparent none;
   padding: 10px;
+  color:#fff;
 }
 .campaign-text a {
   font-family:tahoma, sans-serif;
@@ -221,27 +222,39 @@ body.no-sidebars #content{
  
  /* pane box */
  
- .ding-box-pane,
- .ding-box-pane h3,
- .ding-box-pane ul,
- .ding-box-pane ul li{
-   width: auto;
- }
- .ding-box-pane{
-   background:transparent none;
- }
- .ding-box-pane > div{
-   background: #d8d8d7 none;
- }
-  .ding-box-pane h3{
-   padding:0;
-   width:auto;
-   background:none;
- }
- .ding-box-pane ul{
-   background:transparent none;
- }
- 
- 
- 
+.ding-box-pane,
+.ding-box-pane h3,
+.ding-box-pane ul,
+.ding-box-pane ul li{
+  width: auto;
+}
+.ding-box-pane{
+  background:transparent none;
+}
+.ding-box-pane .gray-box{
+  background: #d8d8d7 none;
+}
+.ding-box-pane .gray-box h3{
+  padding:0;
+  width:auto;
+  background:none;
+  border-bottom:1px dashed #000;
+  padding:5px 0;
+  margin:0 10px;
+  font-weight:bold;
+}
+.ding-box-pane .gray-box ul{
+  background:transparent none;
+}
+.ding-box-pane .gray-box ul li:before{
+  content: "›";
+}
+.ding-box-pane .gray-box ul li {
+  padding-left:4px;
+}
+.ding-box-pane .gray-box ul li a{
+  color:#000;
+   
+}
+
  

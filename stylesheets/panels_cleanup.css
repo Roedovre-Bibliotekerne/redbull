@@ -70,3 +70,10 @@
   margin:10px;
   padding-bottom:30px;  
 }
+.panel-threecol-33-34-33-stacked .panel-bottom{
+  width:auto;
+  
+}
+.panel-threecol-33-34-33-stacked .panel-bottom > div{
+  margin: 20px 10px;
+}
