@@ -3,6 +3,11 @@
 body{
   background-color:#d4d4d4;
   font-family: Tahoma, sans-serif;
+  font-size:12px;
+}
+
+.page a{
+  color:#E23403;
 }
 
 .page{
@@ -84,7 +89,7 @@ body{
 .tabs{
   position:absolute;
   right:30px;
-  top:25px;
+  top:26px;
 }
 .tabs ul{
   border-bottom:0;
@@ -252,4 +257,49 @@ background:transparent url(../images/status.png) no-repeat;
   font-size:10px;
   padding:0;
   background:none;
+}
+
+.front #content{
+  padding-top:10px;
+}
+
+
+#content{
+  padding-top:20px;
+}
+
+
+
+.node h2{
+  text-transform:uppercase;
+  font-size:21px;
+  margin-bottom:20px;
+}
+
+.node .terms a{
+  float:left;
+  background: #73B400;
+  color: white;
+  font-size: 10px;
+  line-height:17px;
+  margin-right: 6px;
+  display: block;
+  padding: 0 2px;
+  text-transform: uppercase;
+}
+.node .content, .node .content .field-teaser{
+  margin-top:0;
+  padding-top:0;
+}
+body.page-node .ding-node .field-teaser {
+  font-weight:normal;
+  font-size.15px;
+}
+.view-blog-category-list ul li div.node-count,
+.view-roedovre-blog-inspiration ul li div.node-count{
+  color: #436971;
+}
+
+.view-roedovre-blog-inspiration ul li div{
+  display:inline;
 }

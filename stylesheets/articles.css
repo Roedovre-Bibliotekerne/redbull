@@ -48,7 +48,15 @@
 
 
 
+
+
 /* article - node view */
+
+/* maybe not a good idea */
+div.panel-pane div.node {
+  overflow:hidden;
+}
+
 
 .node-type-article .twothird{
   width:66.66%;
@@ -67,12 +75,44 @@
   margin:0;
 } 
 
-.ding-box-wide{
+.node-type-article .ding-box-wide{
   width:auto;
   margin:0;
-  background:red;
-  padding-bottom:20px;
+  padding:0;
+  background:transparent none;
+  border:5px solid #72a29a;
+  border-top:2px;
 }
+.node-type-article .ding-box-wide h3{
+  padding:0;
+  background: #72a29a;
+  color:#fff;
+  font-size:11px;
+  text-transform:uppercase;
+  height:20px;
+}
+.node-type-article .ding-box-wide ul{
+  background:transparent none;
+  padding:10px;
+}
+.node-type-article .ding-box-wide ul li, .node-type-article .ding-box-wide ul li.odd{
+  background:transparent none;
+  border:0 none;
+  color:#e23403;
+  margin:0;
+}
+.node-type-article .ding-box-wide ul li a{
+  background:none;
+  border:0 none;
+  padding-left:5px;
+  color:#666;
+}
+
+.node-type-article .ding-box-wide ul li:before{
+  content: "›";
+}
+
+
 
 .node-type-article .left{
   display:block;
@@ -81,6 +121,13 @@
   display:block;
 }
 
+
+.pane-field_ting_refs h3{
+  font-size:11px;
+  font-weight:bold;
+  text-transform:uppercase;
+  padding:5px 0;
+} 
 
 ul.field-ting-refs{
   width:auto;
@@ -110,4 +157,20 @@ ul.field-ting-refs span.creator a{
 ul.field-ting-refs .redlink{
   color:#e23403;
   text-decoration:underline;
+}
+
+.node-type-article .taxonomy a, .node-type-article .meta, .node-type-article .meta a{
+  font-size:11px;
+  color:#999;
+}
+.node-type-article .meta a{
+  text-decoration:underline;
+}
+.node-type-article .meta a:hover, .node-type-article .taxonomy a:hover{
+  color:#436971;
+}
+.node-type-article .taxonomy h3{
+  color:#436971;
+  font-size:11px;
+  line-height:1;
 }

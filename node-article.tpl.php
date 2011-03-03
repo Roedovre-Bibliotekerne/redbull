@@ -55,28 +55,30 @@ if ($page == 0){ ?>
 </div>
 <?php } else { ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
-  <div class="subject">
-    <?php print return_terms_from_vocabulary($node, "1"); ?> 
-  </div>
+  
 
 	<?php if($node->title){	?>	
 	  <h2><?php print $title;?></h2>
 	<?php } ?>
+  
+    <div class="subject">
+    <?php print return_terms_from_vocabulary($node, "1"); ?> 
+  </div>
 
-	<div class="meta">
-	  
-		<?php print format_date($node->created, 'custom', "j F Y") ?> 
-    <i><?php print t('by'); ?></i> 
-		<span class="author"><?php print theme('username', $node); ?></span>	
+  <div class="content">
+    <?php print $content ?>
+  </div>
+
+	<div class="meta">  
+  <?php dsm($node);?>
+	  <span class="date"><?php print format_date($node->created, 'custom', "j F Y") ?></span><span> <?php print t('by'); ?> </span><span class="author"><?php print theme('username', $node); ?></span><?php if($node->field_library_ref[0]['view']):?>, <span class="lib"><?php print $node->field_library_ref[0]['view']; ?></span><?php endif;?>	
 	</div>
 
-	<div class="content">
-		<?php  print $content ?>
-	</div>
+
 
 	<?php if (count($taxonomy)){ ?>
-
 	  <div class="taxonomy">
+    <h3><?php print t('Emneord:')?></h3>
    	  <?php print $terms ?> 
 	  </div>  
 	<?php } ?>
