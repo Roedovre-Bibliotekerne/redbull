@@ -70,7 +70,6 @@ if ($page == 0){ ?>
   </div>
 
 	<div class="meta">  
-  <?php dsm($node);?>
 	  <span class="date"><?php print format_date($node->created, 'custom', "j F Y") ?></span><span> <?php print t('by'); ?> </span><span class="author"><?php print theme('username', $node); ?></span><?php if($node->field_library_ref[0]['view']):?>, <span class="lib"><?php print $node->field_library_ref[0]['view']; ?></span><?php endif;?>	
 	</div>
 
