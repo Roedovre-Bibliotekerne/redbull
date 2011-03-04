@@ -1,0 +1,29 @@
+.hide{
+  display:none;
+}
+.ting-search-carousel a:hover .hide{
+  display:block;
+}
+
+
+.ting-search-carousel a{
+  position:relative;
+  text-decoration:none !important;
+}
+
+
+
+.ting-search-carousel .search-results .info{
+  background:rgba(0,0,0,0.7);
+  width:80px;
+  position:absolute;
+  bottom:0;
+  left:5px;
+  height:auto;
+  padding:10px;
+  color:#fff;
+  /*margin-left:-50px;*/
+}
+.search-results .creator, .ting-search-carousel .search-results .title,.search-results .creator, .ting-search-carousel .search-results .creator {
+  color:#fff;  
+}
