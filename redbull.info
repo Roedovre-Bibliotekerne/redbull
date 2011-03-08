@@ -34,6 +34,8 @@ stylesheets[all][]  = stylesheets/panels_cleanup.css
 stylesheets[all][]  = stylesheets/inspiration.css
 stylesheets[all][]  = stylesheets/articles.css
 stylesheets[all][]  = stylesheets/events.css
+stylesheets[all][]  = stylesheets/search.css
+stylesheets[all][]  = stylesheets/material.css
 
 ;--------------------- scripts ------------------------------
 scripts[] = scripts/cufon.js

@@ -1,0 +1,224 @@
+.panel-twocol-left-stacked .content-left .content-left{
+  width:100%;
+}
+#ting-object .tab-navigation{
+  float:none;
+  min-height:0;
+  width:auto;
+  border-bottom:1px solid #D7D7D7;
+  background: transparent none;
+}
+#ting-object .tab-navigation-main{
+  width:auto;
+  float:none;
+  background:transparent none;
+}
+#ting-object .tab-navigation-main-inner{
+  padding:20px 0 0 0;
+}
+#ting-object .ting-object-view{
+  position:relative;
+  margin-left:200px;
+  border:0 none;
+}
+#ting-object .leftside{
+  position:absolute;
+  left:-200px;
+  
+}
+
+#ting-object h2{
+  color:#666;
+  font-size: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1;
+}
+#ting-object .creator{
+  color:#c1c1c1;
+  margin-bottom:13px;
+}
+
+#ting-object .ting-object-info{
+  background-color:#e3eceb;
+  padding:10px;
+  margin-bottom:20px;
+}
+
+#ting-object .ting-object-info > .item-list,
+#ting-object .ting-object-info > .item-list > span{
+  width:50%;
+  float:left;
+  margin:0;
+}
+#ting-object .ting-object-info *{
+  display:block;
+}
+#ting-object .ting-object-info > .item-list{
+  padding:0 0 5px 0;
+}
+#ting-object .ting-object-info > .item-list .title{
+  /*border-bottom:1px dashed #666;*/
+}
+#ting-object .ting-object-info > .item-list > .item-list{
+  /*width:auto;*/  
+}
+#ting-object .ting-object-info > .item-list > .item-list > *{
+  display:block;
+}
+
+
+
+.isbnblock{
+  border:5px solid #72A29A;
+  border-top:0 none;
+  margin-bottom:20px;
+}
+
+.isbnblock .item-list .title{
+  margin:0;
+  padding:2px 0 2px 0;
+  display:block;
+  color:#fff;
+  background:#72a29a;
+}
+.isbnblock .identifier{
+  display:block;
+  padding:5px;
+}
+
+.bluebox{
+  border:5px solid #72A29A;
+  border-top:0 none;
+  margin-bottom:20px;
+}
+.bluebox h3{
+  margin:0;
+  padding:2px 0 2px 0;
+  display:block;
+  color:#fff;
+  background:#72a29a;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.bluebox ul{
+  padding:5px;
+  color:#e23403;
+}
+.bluebox ul li:before{
+  content: "›";
+}
+#ting-object .bluebox ul li a{
+  color:#666;
+  display:inline;
+  padding-left:3px;
+}
+
+.ting-availability{
+  width:auto;
+  border:5px solid #72A29A;
+  border-top:0 none;
+  margin-bottom:20px;
+}
+.ting-availability h3{
+    margin:0;
+  padding:2px 0 2px 0;
+  display:block;
+  color:#fff;
+  background:#72a29a;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:bold;
+  height:auto;
+}
+.ting-availability p{
+  padding:5px;
+  font-weight:normal;
+  margin:0;
+  font-size:12px;
+}
+.ting-availability .library-list{
+  display:none;
+}
+
+.ting-item .ting-status {
+  /*float:left;
+  margin-top:0;
+  
+  font-size:1em;*/
+ padding:1px;
+ font-size:0.8em;
+ text-transform:uppercase;
+}
+
+
+
+/* adhl */
+
+body.ding-ting-object .pane-recommendation_list, body.ding-ting-collection .pane-recommendation_list {
+  margin:0 -10px;
+}
+body.ding-ting-object .pane-recommendation_list .ding-box-wide,
+body.ding-ting-object .pane-recommendation_list .ding-box-wide h3,
+body.ding-ting-object .pane-recommendation_list .ding-box-wide ul {
+  margin:0;
+  width:auto;
+  background: transparent none;
+}
+body.ding-ting-object .pane-recommendation_list .ding-box-wide > h3 {
+  overflow:visible;
+  height:auto;
+  line-height:14px;
+  text-transform:uppercase;
+  border-top:1px dashed #D7D7D7;
+  margin:0 10px;
+  padding-left:0;
+}  
+
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li{
+  margin:0;
+  padding:0;
+  float:left;
+  width:33.33%;
+}
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li .inner{
+  border:5px solid #d1d1d1;
+  margin:10px;
+  padding: 10px 0 10px 10px;
+}
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li .picture{
+  float:left;
+  background: #DDD;
+}
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li .record{
+  padding-right:10px;
+  margin-left:92px;
+  /*overflow:hidden;*/
+  /*height:120px;*/
+  /*width:87px;*/
+}
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li .abstract,
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li .abstract p,
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li h3{
+  padding:0;
+  margin:0;
+}
+body.ding-ting-object .pane-recommendation_list .ting-recommendation li .abstract p{
+  margin-top:10px;
+  font-weight:normal;
+}
+body.ding-ting-object .pane-recommendation_list ul.ting-recommendation li h3 a{
+  color:#050505;
+  text-transform:uppercase;
+  font-size:11px;
+}
+body.ding-ting-object .pane-recommendation_list ul.ting-recommendation li a{
+  color:#666;
+}
+body.ding-ting-object .pane-recommendation_list .ting-recommendation .redlink{
+  display:block;
+  margin-left:92px;
+  margin-top:2px;
+  color:#E33503;
+}

@@ -1,0 +1,117 @@
+body.ding-ting-search .panel-twocol-left-stacked .panel-left{
+  width: auto;
+}
+#ting-search-results{
+  width:auto;
+  float:none;
+}
+#ting-search-tabs{
+  float:none;
+  border: 0 none;
+}
+#ting-result, #content-result{
+  background:transparent none;
+  padding:0;
+}
+
+#ting-facet-browser{
+  width:auto;
+  
+  padding:0;
+  border: 5px solid #72A29A;
+}
+
+ .jcarousel-skin-ding-facet-browser{
+   width:auto;
+ }
+.jcarousel-skin-ding-facet-browser .jcarousel-container{
+  width:auto;
+}
+.jcarousel-skin-ding-facet-browser .jcarousel-clip-horizontal{
+  width:auto;
+}
+
+
+.jcarousel-skin-ding-facet-browser .jcarousel-item {
+  width:173px;
+}
+
+
+body #ting-facet-browser li li.odd.hidden{
+  background: transparent none !important;
+}
+.jcarousel-skin-ding-facet-browser .jcarousel-next-horizontal{
+  background:transparent url(../images/carousel-pager.png) no-repeat -23px 0px;
+  width:23px;
+  height:40px;
+  right:-8px;
+  margin-top:-20px;
+}
+.jcarousel-skin-ding-facet-browser .jcarousel-next-horizontal:hover{
+  background-position:-23px -80px;
+}
+.jcarousel-skin-ding-facet-browser .jcarousel-next-disabled-horizontal{
+  background-position:-23px -40px;
+}
+.jcarousel-skin-ding-facet-browser .jcarousel-prev-horizontal{
+  background:transparent url(../images/carousel-pager.png) no-repeat 0px 0px;
+  width:23px;
+  height:40px;
+  left:-8px;
+  margin-top:-20px;
+}
+.jcarousel-skin-ding-facet-browser .jcarousel-prev-horizontal:hover{
+  background-position:0px -80px;
+}
+.jcarousel-skin-ding-facet-browser .jcarousel-prev-disabled-horizontal{
+  background-position:0px -40px;
+}
+#ting-facet-browser a.resize{
+  width:auto;
+  left:50%;
+  margin-left:-23px;
+}
+#ting-facet-browser .resize.contract{
+  background:transparent url(../images/carousel-pager.png) no-repeat 0 -140px;
+  width:46px;
+  height:20px;
+  
+  top:auto !important;
+  bottom:-5px !important; 
+}
+
+#ting-facet-browser .resize.expand{
+  background:transparent url(../images/carousel-pager.png) no-repeat 0 -120px;
+  width:46px;
+  height:20px;
+  
+  top:auto !important;
+  bottom:-5px !important;
+}
+#ting-facet-browser li li{
+  color:#E23403;
+}
+
+#ting-search-result{
+  width:auto;
+}
+#ting-search-result div.record{
+  width:auto;
+}
+#ting-search-result ul li {
+  background:transparent none;
+  border-top:1px dashed #D7D7D7;
+}
+#ting-search-result div.record h3 a{
+  color:#666;
+  font-size: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 13px;
+}
+
+#ting-search-result div {
+  font-family:Tahoma, sans-serif;
+  font-size:1em;
+}

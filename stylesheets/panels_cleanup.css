@@ -7,6 +7,9 @@
   border: 0 none;
   width:50%;
 }
+.panel-threecol-33-34-33-stacked .panel-left.wide{
+  width:75%;
+}
 .panel-threecol-33-34-33-stacked .panel-left > div{
   padding-left:10px;
   padding-right:10px;

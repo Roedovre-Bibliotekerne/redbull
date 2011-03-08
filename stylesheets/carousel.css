@@ -11,7 +11,9 @@
   text-decoration:none !important;
 }
 
-
+.ting-search-carousel .search-results img{
+  display:block;
+}
 
 .ting-search-carousel .search-results .info{
   background:rgba(0,0,0,0.7);

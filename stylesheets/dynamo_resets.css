@@ -253,8 +253,11 @@ body.no-sidebars #content{
   padding-left:4px;
 }
 .ding-box-pane .gray-box ul li a{
-  color:#000;
-   
+  color:#000;   
 }
-
- 
+.panel-left .view-taxonomy-term-view {
+  width:auto;
+}
+.panel-pane .node-teaser .content {
+  width:320px;
+}

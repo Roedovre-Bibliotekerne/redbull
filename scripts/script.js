@@ -16,6 +16,29 @@ $(document).ready(function(){
 		fadeOpacity:"0.2",
 		fadeDuration:"100"			
 	});	
+  
+  if(jQuery.trim($('.panel-threecol-33-34-33-stacked .panel-middle').html()) == ''){
+  $('.panel-threecol-33-34-33-stacked .panel-left').addClass('wide');
+
+  }
+  
+   
+  var heigest = 0; 
+  var rowlen = 3;
+   
+  $('.ting-recommendation li .inner').each(function(i){
+    if(heigest < $(this).height()){
+      heigest = $(this).height();
+    }
+    if(!((i+1)%rowlen)){
+      cur = $(this);
+      for(j=0;j<rowlen;j++){
+        cur.height(heigest);
+        cur = $(cur).parent().prev().children('.inner');
+      }
+      heigest = 0;
+    }
+  });
 });
 
 
