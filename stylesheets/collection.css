@@ -1,0 +1,25 @@
+.page-ting #ting-collection {
+  display:block;
+}
+
+.tab-navigation, .page-arrangementer .panel-left ul, .ding-arrangementer .panel-left ul, .ding-ting-collection .panel-left ul .tab-navigation ul{
+  width:auto;
+  float:none;
+  min-height:0;
+  background:transparent none;
+}
+body.page-arrangementer .panel-middle .panel-pane, body.ding-arrangementer .panel-middle .panel-pane, .tab-navigation-main-inner{
+  padding:0;
+}
+.ting-item .ting-object-buttons {
+  float:right;
+}
+
+
+
+body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main{
+  float:none;
+  width:auto;
+  background:transparent none;
+}
+ 

@@ -261,3 +261,15 @@ body.no-sidebars #content{
 .panel-pane .node-teaser .content {
   width:320px;
 }
+
+
+
+.ding-box-wide{
+  margin:0;
+  width:auto;
+  overflow:inherit;
+}
+.pane-recommendation_list ul.ting-recommendation li {
+  padding:0;
+  margin:0;
+}

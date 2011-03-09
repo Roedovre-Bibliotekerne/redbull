@@ -13,8 +13,8 @@
     $picture =  l(theme('image', $image_url, '', '', null, false), $object->url, array('html' => true));
   }
 ?>
-  <li class="clear-block">
-    <div class="inner">
+  <li>
+    <div class="inner clear-block">
       <?php if ($picture): ?>
       <div class="picture">
          <?php print $picture; ?>

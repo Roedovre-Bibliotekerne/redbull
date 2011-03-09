@@ -24,6 +24,7 @@
 #ting-object .leftside{
   position:absolute;
   left:-200px;
+  width:180px;
   
 }
 
@@ -156,17 +157,17 @@
 
 /* adhl */
 
-body.ding-ting-object .pane-recommendation_list, body.ding-ting-collection .pane-recommendation_list {
+.pane-recommendation_list, body.ding-ting-collection .pane-recommendation_list {
   margin:0 -10px;
 }
-body.ding-ting-object .pane-recommendation_list .ding-box-wide,
-body.ding-ting-object .pane-recommendation_list .ding-box-wide h3,
-body.ding-ting-object .pane-recommendation_list .ding-box-wide ul {
+.pane-recommendation_list .ding-box-wide,
+.pane-recommendation_list .ding-box-wide h3,
+.pane-recommendation_list .ding-box-wide ul {
   margin:0;
   width:auto;
   background: transparent none;
 }
-body.ding-ting-object .pane-recommendation_list .ding-box-wide > h3 {
+.pane-recommendation_list .ding-box-wide > h3 {
   overflow:visible;
   height:auto;
   line-height:14px;
@@ -174,49 +175,53 @@ body.ding-ting-object .pane-recommendation_list .ding-box-wide > h3 {
   border-top:1px dashed #D7D7D7;
   margin:0 10px;
   padding-left:0;
-}  
+} 
 
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li{
+body.ding-ting-object .pane-recommendation_list, body.ding-ting-collection .pane-recommendation_list {
+  margin:0;
+}
+
+.pane-recommendation_list .ting-recommendation li{
   margin:0;
   padding:0;
   float:left;
-  width:33.33%;
+  width:33.33% !important;
 }
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li .inner{
+.pane-recommendation_list .ting-recommendation li .inner{
   border:5px solid #d1d1d1;
   margin:10px;
   padding: 10px 0 10px 10px;
 }
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li .picture{
+.pane-recommendation_list .ting-recommendation li .picture{
   float:left;
   background: #DDD;
 }
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li .record{
+.pane-recommendation_list .ting-recommendation li .record{
   padding-right:10px;
   margin-left:92px;
   /*overflow:hidden;*/
   /*height:120px;*/
   /*width:87px;*/
 }
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li .abstract,
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li .abstract p,
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li h3{
+.pane-recommendation_list .ting-recommendation li .abstract,
+.pane-recommendation_list .ting-recommendation li .abstract p,
+.pane-recommendation_list .ting-recommendation li h3{
   padding:0;
   margin:0;
 }
-body.ding-ting-object .pane-recommendation_list .ting-recommendation li .abstract p{
+.pane-recommendation_list .ting-recommendation li .abstract p{
   margin-top:10px;
   font-weight:normal;
 }
-body.ding-ting-object .pane-recommendation_list ul.ting-recommendation li h3 a{
+.pane-recommendation_list ul.ting-recommendation li h3 a{
   color:#050505;
   text-transform:uppercase;
   font-size:11px;
 }
-body.ding-ting-object .pane-recommendation_list ul.ting-recommendation li a{
+.pane-recommendation_list ul.ting-recommendation li a{
   color:#666;
 }
-body.ding-ting-object .pane-recommendation_list .ting-recommendation .redlink{
+.pane-recommendation_list .ting-recommendation .redlink{
   display:block;
   margin-left:92px;
   margin-top:2px;
