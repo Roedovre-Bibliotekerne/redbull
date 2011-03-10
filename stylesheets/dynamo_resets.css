@@ -273,3 +273,8 @@ body.no-sidebars #content{
   padding:0;
   margin:0;
 }
+
+
+body.page-arrangementer .panel-left {
+  width:auto;
+}

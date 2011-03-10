@@ -304,3 +304,29 @@ body.page-node .ding-node .field-teaser {
 .view-roedovre-blog-inspiration ul li div{
   display:inline;
 }
+
+/* tabs */
+
+.ui-tabs-nav, .pane-categories{
+  border-bottom:1px dashed #d1d1d1 !important;  
+}
+
+.ui-tabs-nav ul, .pane-categories > ul.item-list{
+  background:transparent none !important;
+ 
+}
+.ui-tabs-nav ul li,
+.pane-categories > ul.item-list li{
+  float:left;
+  background:transparent none !important;
+  border-right: 1px solid #D1D9D7 !important;
+  margin-right:2px !important;
+  margin-bottom:2px !important;
+}
+
+/*.panel-left div.view-redbull-article-list ul li,
+.panel-left div.view-redbull-inspiration-list ul li{
+  padding:5px 0;
+  border-top:1px dashed #d7d7d7;
+  background-image:none;
+}*/
