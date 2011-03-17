@@ -124,3 +124,35 @@ body.page-arrangementer .panel-middle .pane-categories{
   float:none;
   border:0 none !important;
 }
+
+
+
+
+.panel-threecol-left-stacked .content-left{
+  width:75%;
+  margin:0;
+}
+.panel-threecol-left-stacked .content-left > *{
+  margin-right:10px;
+}
+.panel-threecol-left-stacked .content-right{
+  width:25%;
+}
+.panel-threecol-left-stacked .content-right > *{
+  margin-left:10px;
+}
+
+
+
+.panel-threecol-left-stacked .panel-left {
+  width:66.66%;
+}
+.panel-threecol-left-stacked .panel-left > div {
+  margin-right:10px;
+}
+.panel-threecol-left-stacked .panel-middle {
+  width:33.33%;
+}
+.panel-threecol-left-stacked .panel-middle > div {
+  margin-left:10px;
+}

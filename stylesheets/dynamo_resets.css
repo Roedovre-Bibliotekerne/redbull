@@ -278,3 +278,22 @@ body.no-sidebars #content{
 body.page-arrangementer .panel-left {
   width:auto;
 }
+
+.ding-box-pane .pane-library_hours{
+  width:auto;
+}
+
+
+.ding-library-map, .view-library-list .node-teaser-library {
+  width:auto;
+}
+.library-info,.library-info-inner,.library-info .library-map {
+  background:transparent none;
+  width:auto;
+}
+body.page-biblioteker .panel-left .view ul li {
+  padding: 10px 0;
+}
+.view-library-list .node-teaser-library .content {
+  width:385px;
+}
