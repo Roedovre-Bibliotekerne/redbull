@@ -222,6 +222,10 @@ body.no-sidebars #content{
  
  /* pane box */
  
+ .ding-box-wide h3 {
+   height:auto;
+ }
+ 
 .ding-box-pane,
 .ding-box-pane h3,
 .ding-box-pane ul,

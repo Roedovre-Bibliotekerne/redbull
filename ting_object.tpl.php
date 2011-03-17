@@ -161,11 +161,12 @@ if(arg(3) == 'data'){
       <?php print theme('item_list', $object->record['dc:rights'][''], t('Rights'), 'span', array('class' => 'rights'));?>
     <?php } ?>
   </div>
-  <div class="isbnblock">
+  <?php /*<div class="isbnblock">
     <?php if (!empty($object->record['dc:identifier']['dkdcplus:ISBN'])) { ?>
       <?php print theme('item_list', $object->record['dc:identifier']['dkdcplus:ISBN'], t('ISBN no.'), 'span', array('class' => 'identifier'));?>
     <?php } ?>
   </div>
+   */ ?>
   <?php
   $collection = ting_get_collection_by_id($object->id);
   if ($collection instanceof TingClientObjectCollection && is_array($collection->types)) {
