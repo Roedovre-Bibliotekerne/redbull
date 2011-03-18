@@ -37,6 +37,7 @@ stylesheets[all][]  = stylesheets/events.css
 stylesheets[all][]  = stylesheets/search.css
 stylesheets[all][]  = stylesheets/material.css
 stylesheets[all][]  = stylesheets/collection.css
+stylesheets[print][]  = stylesheets/print.css
 
 ;--------------------- scripts ------------------------------
 scripts[] = scripts/cufon.js
