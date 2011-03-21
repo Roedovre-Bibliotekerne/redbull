@@ -133,6 +133,13 @@ body.page-arrangementer .panel-middle .pane-categories{
   margin:0;
 }
 .panel-threecol-left-stacked .content-left > *{
+/*  margin-right:10px;
+  margin-left:10px;*/
+}
+.panel-threecol-left-stacked .content-left .content-middle > div.panel-left > *{
+  margin-left:10px;
+}
+.panel-threecol-left-stacked .content-left .content-middle > div.panel-middle > *{
   margin-right:10px;
 }
 .panel-threecol-left-stacked .content-right{
@@ -140,6 +147,7 @@ body.page-arrangementer .panel-middle .pane-categories{
 }
 .panel-threecol-left-stacked .content-right > *{
   margin-left:10px;
+  margin-right:10px;
 }
 
 
@@ -155,4 +163,11 @@ body.page-arrangementer .panel-middle .pane-categories{
 }
 .panel-threecol-left-stacked .panel-middle > div {
   margin-left:10px;
+}
+.panel-threecol-left-stacked .panel-left{
+  background:transparent none;
+}
+.panel-threecol-left-stacked .content-top > *{
+  margin-left:10px;
+  margin-right:10px;
 }

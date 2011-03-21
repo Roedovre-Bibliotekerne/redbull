@@ -301,3 +301,6 @@ body.page-biblioteker .panel-left .view ul li {
 .view-library-list .node-teaser-library .content {
   width:385px;
 }
+.pane-library_hours .office-hours-week .even, .pane-library_hours .office-hours-week .odd{
+  width:180px;
+}
