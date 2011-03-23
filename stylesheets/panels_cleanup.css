@@ -136,6 +136,9 @@ body.page-arrangementer .panel-middle .pane-categories{
 /*  margin-right:10px;
   margin-left:10px;*/
 }
+.panel-threecol-left-stacked .content-left > .content-middle{
+  width:100%;
+}
 .panel-threecol-left-stacked .content-left .content-middle > div.panel-left > *{
   margin-left:10px;
 }
