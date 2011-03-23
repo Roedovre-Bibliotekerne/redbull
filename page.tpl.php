@@ -1,6 +1,5 @@
 <?php
 // $Id$
-
 /**
  * @file page.tpl.php
  * Main page template file for the redbull theme.
@@ -59,6 +58,8 @@
   
    <div id="pagebody" class="clearfix">
           <div id="pagebody-inner" class="clearfix">
+
+<?php print $breadcrumb; ?>
 
             <?php if ($left) { ?>
               <div id="content-left">

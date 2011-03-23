@@ -330,3 +330,7 @@ body.page-node .ding-node .field-teaser {
   border-top:1px dashed #d7d7d7;
   background-image:none;
 }*/
+#path{
+  margin:10px 0 0 10px;
+  height:0;
+}

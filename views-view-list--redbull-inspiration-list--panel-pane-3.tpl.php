@@ -15,7 +15,7 @@
   <?php endif; ?>
   <<?php print $options['type']; ?>>
     <?php foreach ($rows as $id => $row): ?>
-      <li class="<?php print $classes[$id]; ?>"><div class="inner"><?php print $row; ?></div></li>
+      <li class="<?php print $classes[$id]; ?> clear-block"><div class="inner"><?php print $row; ?></div></li>
     <?php endforeach; ?>
   </<?php print $options['type']; ?>>
 </div>

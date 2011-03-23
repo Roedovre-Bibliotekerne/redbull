@@ -304,3 +304,21 @@ body.page-biblioteker .panel-left .view ul li {
 .pane-library_hours .office-hours-week .even, .pane-library_hours .office-hours-week .odd{
   width:180px;
 }
+
+
+/* paginering */
+
+ 
+ #pager, ul.pager {
+   background: transparent none;
+   margin:0;
+   padding:0;
+   float:right;
+ }
+ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first {
+   background: transparent none;
+   border:1px solid #c0c0c0;
+   padding:0;
+   margin-left:10px;
+   height:auto;
+ }

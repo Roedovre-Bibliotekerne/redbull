@@ -132,6 +132,7 @@
   text-transform:uppercase;
   font-weight:bold;
   height:auto;
+  width:auto;
 }
 .ting-availability p{
   padding:5px;
