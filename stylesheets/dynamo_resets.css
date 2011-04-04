@@ -331,5 +331,27 @@ body.page-biblioteker .panel-left .view ul li {
   border:0 none !important;
   background: transparent none;
 }
+.campaign-image{
+  margin:0;
+}
+.pane-library_title ul{
+  height:20px;
+}
+ 
+.pane-library_title li{
+  float:left;
+  margin-right:10px !important;
+  border:0 none !important;
+} 
+.pane-library_title li a{
+  
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
