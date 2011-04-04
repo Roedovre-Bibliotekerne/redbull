@@ -322,3 +322,14 @@ body.page-biblioteker .panel-left .view ul li {
    margin-left:10px;
    height:auto;
  }
+ 
+ 
+.ding-ting-collection .tab-navigation{
+  float:none;
+  width:auto;
+  min-height:1px;
+  border:0 none !important;
+  background: transparent none;
+}
+ 
+ 
