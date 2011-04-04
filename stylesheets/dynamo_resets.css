@@ -224,6 +224,7 @@ body.no-sidebars #content{
  
  .ding-box-wide h3 {
    height:auto;
+   width:100%;
  }
  
 .ding-box-pane,
@@ -347,10 +348,9 @@ body.page-biblioteker .panel-left .view ul li {
   
 } 
  
- 
- 
- 
- 
+.view-blog-inspiration-category-list ul li div {
+  display:inline;
+} 
  
  
  
