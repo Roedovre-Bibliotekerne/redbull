@@ -141,9 +141,10 @@
   font-size:12px;
 }
 .ting-availability .library-list{
-  display:none;
 }
-
+.ding-box-wide ul{
+  background: transparent none !important;
+}
 .ting-item .ting-status {
   /*float:left;
   margin-top:0;
