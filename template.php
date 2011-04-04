@@ -39,7 +39,7 @@ function redbull_user_login_block($form){
   $submit = drupal_render($form['submit']);
   $remember = drupal_render($form['remember_me']);
 
-  $before = '<h3>'.t('Login').'</h3>'.l(t('> NemLog-in'),'/nemlogin',array('attributes' => array('class' => 'nemlogin')));
+  $before = '<h3>'.t('Login').'</h3>';//.l(t('> NemLog-in'),'/nemlogin',array('attributes' => array('class' => 'nemlogin')));
   return $before . $name . '<div>' . $pass . $submit . '</div>' . $remember . drupal_render($form);
 }
 
