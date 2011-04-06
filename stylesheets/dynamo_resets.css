@@ -351,7 +351,12 @@ body.page-biblioteker .panel-left .view ul li {
 .view-blog-inspiration-category-list ul li div {
   display:inline;
 } 
- 
- 
- 
- 
+
+
+.view-event-list .view-filters {
+  float:none;
+  height:34px;
+}
+.view-event-list .view-filters form{
+  float:right;
+}
