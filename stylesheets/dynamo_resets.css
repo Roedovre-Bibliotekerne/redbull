@@ -62,14 +62,14 @@ body.no-sidebars #content{
   text-decoration:none !important;
 }
 .ting-search-carousel .search-controller li.active a {
-  color: #e23403;  
+  color: #e23403;
 }
 .ting-search-carousel .search-controller li.active{
   background:#d8d8d8;
   border-top:1px solid #d8d8d8;
 }
 
- /* carousel buttons */ 
+ /* carousel buttons */
 .jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal,
 .jcarousel-skin-ting-search-carousel .jcarousel-next-horizontal{
   background:transparent url('../images/carousel-pager.png') no-repeat top left;
@@ -117,12 +117,12 @@ body.no-sidebars #content{
 .jcarousel-skin-ting-search-carousel .jcarousel-next-horizontal {
   right:-17px;
 }
- 
- 
- 
- 
+
+
+
+
 /* ting search form resets */
- 
+
 #ting-search-form {
   background: transparent none;
   padding:0;
@@ -169,7 +169,7 @@ body.no-sidebars #content{
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6a925', endColorstr='#ef6615'); /* for IE */
   background: -webkit-gradient(linear, left top, left bottom, from(#f6a925), to(#ef6615)); /* for webkit browsers */
   background: -moz-linear-gradient(top,  #f6a925,  #ef6615); /* for firefox 3.6+ */
-} 
+}
 
 /* campaign */
 
@@ -209,24 +209,24 @@ body.no-sidebars #content{
 }
 
 /* autocopmplete field */
- 
+
  .ac_results{
    margin-left:-1px;
    width:480px !important;
    border-color:#001A27;
  }
- 
+
  .ac_results .ac_over{
    background: #F3871B;
  }
- 
+
  /* pane box */
- 
+
  .ding-box-wide h3 {
    height:auto;
    width:100%;
  }
- 
+
 .ding-box-pane,
 .ding-box-pane h3,
 .ding-box-pane ul,
@@ -258,7 +258,7 @@ body.no-sidebars #content{
   padding-left:4px;
 }
 .ding-box-pane .gray-box ul li a{
-  color:#000;   
+  color:#000;
 }
 .panel-left .view-taxonomy-term-view {
   width:auto;
@@ -309,7 +309,7 @@ body.page-biblioteker .panel-left .view ul li {
 
 /* paginering */
 
- 
+
  #pager, ul.pager {
    background: transparent none;
    margin:0;
@@ -323,8 +323,8 @@ body.page-biblioteker .panel-left .view ul li {
    margin-left:10px;
    height:auto;
  }
- 
- 
+
+
 .ding-ting-collection .tab-navigation{
   float:none;
   width:auto;
@@ -333,24 +333,24 @@ body.page-biblioteker .panel-left .view ul li {
   background: transparent none;
 }
 .campaign-image{
-  margin:0;
+  margin:0 0 10px 0;
 }
 .pane-library_title ul{
   height:20px;
 }
- 
+
 .pane-library_title li{
   float:left;
   margin-right:10px !important;
   border:0 none !important;
-} 
+}
 .pane-library_title li a{
-  
-} 
- 
+
+}
+
 .view-blog-inspiration-category-list ul li div {
   display:inline;
-} 
+}
 
 
 .view-event-list .view-filters {
