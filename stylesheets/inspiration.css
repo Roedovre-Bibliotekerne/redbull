@@ -1,31 +1,39 @@
-.view-redbull-inspiration-list ul li .inner{
-  padding-left:120px !important;
+.view-redbull-inspiration-list ul li .inner,
+.view-roedovre-taxonomy-term-view ul li .inner{
+  /* padding-left:120px !important; */
 }
-.view-redbull-inspiration-list ul li .field-list-image-fid{
+.view-redbull-inspiration-list ul li .field-list-image-fid,
+.view-roedovre-taxonomy-term-view ul li .field-list-image-fid{
   float:left;
-  margin-left:-120px;
+  margin-right: 20px;
+  /* margin-left:-120px; */
 }
 
-.view-redbull-inspiration-list ul li div.inner{
+.view-redbull-inspiration-list ul li div.inner,
+.view-roedovre-taxonomy-term-view ul li div.inner{
   margin:5px 0;
   padding-top:25px;
   padding-bottom:25px;
 }
-.view-redbull-inspiration-list ul li.views-row-first div.inner{
+.view-redbull-inspiration-list ul li.views-row-first div.inner,
+.view-roedovre-taxonomy-term-view ul li.views-row-first div.inner{
   margin-top:0;
   padding-top:0;
 }
-.view-redbull-inspiration-list ul li div.inner:hover{
+.view-redbull-inspiration-list ul li div.inner:hover,
+.view-roedovre-taxonomy-term-view ul li div.inner:hover{
   background-color:#f1f5f4;
 }
-.view-redbull-inspiration-list ul li div.inner .title{
+.view-redbull-inspiration-list ul li div.inner .title,
+.view-roedovre-taxonomy-term-view ul li div.inner .title{
   font-size:21px;
   font-weight:normal;
   text-transform:uppercase;
   line-height:1;
   margin-bottom:13px;
 }
-.view-redbull-inspiration-list ul li div.inner .tid a{
+.view-redbull-inspiration-list ul li div.inner .tid a,
+.view-roedovre-taxonomy-term-view ul li div.inner .tid a{
   float:left;
   background: #73b400;
   color:#fff;
@@ -35,13 +43,16 @@
   padding:0 2px;
   text-transform:uppercase;
 }
-.view-redbull-inspiration-list ul li div.inner .field-teaser-value{
+.view-redbull-inspiration-list ul li div.inner .field-teaser-value,
+.view-roedovre-taxonomy-term-view ul li div.inner .field-teaser-value{
   margin-bottom:13px;
 }
-.view-redbull-inspiration-list ul li div.inner .view-node, .edit-node{
+.view-redbull-inspiration-list ul li div.inner .view-node, .edit-node,
+.view-roedovre-taxonomy-term-view ul li div.inner .view-node, .edit-node{
   display:inline;
 }
-.view-redbull-inspiration-list ul li div.inner .view-node a, .edit-node a{
+.view-redbull-inspiration-list ul li div.inner .view-node a, .edit-node a,
+.view-roedovre-taxonomy-term-view ul li div.inner .view-node a, .edit-node a{
   color: #e23403;
   text-decoration:underline !important;
 }
