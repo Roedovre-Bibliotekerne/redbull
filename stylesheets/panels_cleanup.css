@@ -65,17 +65,17 @@
    width:auto;
    margin:10px;
  }
- 
+
 .panel-twocol-left-stacked .content-right {
   width:25%;
 }
 .panel-twocol-left-stacked .content-right > div {
   margin:10px;
-  padding-bottom:30px;  
+  padding-bottom:30px;
 }
 .panel-threecol-33-34-33-stacked .panel-bottom{
   width:auto;
-  
+
 }
 .panel-threecol-33-34-33-stacked .panel-bottom > div{
   margin: 20px 10px;
@@ -106,8 +106,11 @@ body.page-arrangementer .panel-left > *, body.ding-arrangementer .panel-middle >
 body.page-arrangementer .panel-left {
   width:50%;
 }
-body.ding-arrangementer .panel-middle{
+body.page-arrangementer .panel-middle{
   width:25%;
+}
+
+body.ding-arrangementer .panel-middle{
   background:transparent none;
 }
 
