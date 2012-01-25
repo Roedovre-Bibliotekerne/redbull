@@ -25,7 +25,7 @@
   position:absolute;
   left:-200px;
   width:180px;
-  
+
 }
 
 #ting-object h2{
@@ -46,8 +46,9 @@
   margin-bottom:20px;
 }
 
-#ting-object .ting-object-info > .item-list,
-#ting-object .ting-object-info > .item-list > span{
+#ting-object .ting-object-info .details div > .item-list,
+#ting-object .ting-object-info .details div > .item-list > span.item-list,
+#ting-object .ting-object-info .details div > .item-list > span.title {
   width:50%;
   float:left;
   margin:0;
@@ -55,16 +56,16 @@
 #ting-object .ting-object-info *{
   display:block;
 }
-#ting-object .ting-object-info > .item-list{
+#ting-object .ting-object-info .details div > .item-list{
   padding:0 0 5px 0;
 }
-#ting-object .ting-object-info > .item-list .title{
+#ting-object .ting-object-info .details div > .item-list .title{
   /*border-bottom:1px dashed #666;*/
 }
-#ting-object .ting-object-info > .item-list > .item-list{
-  /*width:auto;*/  
+#ting-object .ting-object-info .details div > .item-list > .item-list{
+  /*width:auto;*/
 }
-#ting-object .ting-object-info > .item-list > .item-list > *{
+#ting-object .ting-object-info .details div > .item-list > .item-list > *{
   display:block;
 }
 
@@ -148,7 +149,7 @@
 .ting-item .ting-status {
   /*float:left;
   margin-top:0;
-  
+
   font-size:1em;*/
  padding:1px;
  font-size:0.8em;
@@ -177,7 +178,7 @@
   border-top:1px dashed #D7D7D7;
   margin:0 10px;
   padding-left:0;
-} 
+}
 
 body.ding-ting-object .pane-recommendation_list, body.ding-ting-collection .pane-recommendation_list {
   margin:0;

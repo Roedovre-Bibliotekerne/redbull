@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function redbull_office_hours_format_time($time) {
   list($hours, $minutes, $seconds) = explode(':', $time);
@@ -6,11 +6,11 @@ function redbull_office_hours_format_time($time) {
 if (is_numeric($hours) && $hours >= 0 && $hours < 24) {
     return sprintf('%02u.%02u', $hours, $minutes);
   }
-  
+
   if (is_numeric($hours) && $hours >= 0 && $hours < 24) {
-    
-    
-    
+
+
+
     //if(is_numeric($minutes) && $minutes > 0){
       return intval($hours) .sprintf(':%02u', $minutes);
     //}
@@ -19,13 +19,13 @@ if (is_numeric($hours) && $hours >= 0 && $hours < 24) {
 }
 
 function redbull_ting_search_form($form){
-   
+
   $form['#prefix'] = '<h2 class="search-title">'.t('Søg her').'</h2>';
   $form['keys']['#prefix'] = '<div class="btn-container">';
   $form['submit']['#type'] = "submit";
   $form['submit']['#suffix'] = '</div>';
   unset($form['example_text']);
-  
+
   //var_dump($form);
 
   return drupal_render($form);
@@ -108,6 +108,13 @@ function redbull_ting_reference_formatter_default($element) {
   }
   return theme('ting_related_materials', $collection);
 }
+
+/**
+ *
+ */
+/* function redbull_preprocess_ting_object(&$vars) { */
+/*   dpm($vars); */
+/* } */
 
 
 ?>
