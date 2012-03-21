@@ -115,3 +115,4 @@ body #ting-facet-browser li li.odd.hidden{
   font-family:Tahoma, sans-serif;
   font-size:1em;
 }
+#ting-search-result .ting-details {color:inherit;}

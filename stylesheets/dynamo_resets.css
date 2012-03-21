@@ -360,3 +360,6 @@ body.page-biblioteker .panel-left .view ul li {
 .view-event-list .view-filters form{
   float:right;
 }
+.meta {
+  color: inherit;
+}
