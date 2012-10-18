@@ -62,7 +62,7 @@ if(arg(3) == 'data'){
 
   <?php if (isset($additional_main_content)) { print drupal_render($additional_main_content); } ?>
 
-  <div class="ting-object-info clearfix">
+  <div class="object-information ting-object-info clearfix">
     <?php print $ting_details; ?>
   </div>
 
