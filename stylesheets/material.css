@@ -46,6 +46,11 @@
   margin-bottom:20px;
 }
 
+#ting-object .ting-object-buttons ul li a {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
 #ting-object .ting-object-info .details div > .item-list,
 #ting-object .ting-object-info .details div > .item-list > span.item-list,
 #ting-object .ting-object-info .details div > .item-list > span.title,
