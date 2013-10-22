@@ -40,15 +40,15 @@ body{
 .main-menu li{
   float:left;
 }
-.main-menu li a{
-  display:block;
-  min-width:109px;
-  height:50px;
-  margin-left:1px;
-  padding:5px;
-  text-transform:uppercase;
-  color:#fff;
-  text-decoration:none !important; /* uarhg! */
+.main-menu li a {
+  display: block;
+  width: 102px;
+  height: 50px;
+  margin-left: 1px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none !important; /* uarhg! */
 }
 .main-menu li.active a,
 .main-menu li a:hover{
